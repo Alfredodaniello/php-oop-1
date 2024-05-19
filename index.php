@@ -14,7 +14,7 @@ public function __construct($_title, $_genre, $_director) {
 public function getMovieInfo(){
     echo "Titolo: $this->title<br>";
     echo "Genere: $this->genre<br>";
-    echo "Regsista: $this->director<br>";
+    echo "Regista: $this->director<br>";
 }
 
 }
